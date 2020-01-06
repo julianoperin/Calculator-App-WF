@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASA Calculator", "ASA Calculator\ASA Calculator.csproj", "{799AAA6B-5086-4CFC-BCF2-FDA14DEB2C79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799AAA6B-5086-4CFC-BCF2-FDA14DEB2C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799AAA6B-5086-4CFC-BCF2-FDA14DEB2C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799AAA6B-5086-4CFC-BCF2-FDA14DEB2C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799AAA6B-5086-4CFC-BCF2-FDA14DEB2C79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EAE627B-E6C5-438C-A162-97959839834B}
+	EndGlobalSection
+EndGlobal
