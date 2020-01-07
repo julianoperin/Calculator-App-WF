@@ -1,0 +1,9 @@
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\bin\Debug\ASA Calculator.exe.config
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\bin\Debug\ASA Calculator.exe
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\bin\Debug\ASA Calculator.pdb
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\obj\Debug\ASA Calculator.csprojAssemblyReference.cache
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\obj\Debug\ASA_Calculator.frmCalculator.resources
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\obj\Debug\ASA_Calculator.Properties.Resources.resources
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\obj\Debug\ASA Calculator.csproj.GenerateResource.cache
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\obj\Debug\ASA Calculator.exe
+C:\Users\julia\Desktop\ASA Calculator\ASA Calculator\obj\Debug\ASA Calculator.pdb

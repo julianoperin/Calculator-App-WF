@@ -30,8 +30,8 @@
         {
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.textNum1 = new System.Windows.Forms.TextBox();
-            this.textNum2 = new System.Windows.Forms.TextBox();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtNum2 = new System.Windows.Forms.TextBox();
             this.lblOperator = new System.Windows.Forms.Label();
             this.lblEqual = new System.Windows.Forms.Label();
             this.lblSolution = new System.Windows.Forms.Label();
@@ -70,26 +70,26 @@
             this.lblTitle.Text = "ASA Super Calculator";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textNum1
+            // txtNum1
             // 
-            this.textNum1.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.textNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textNum1.Location = new System.Drawing.Point(12, 138);
-            this.textNum1.Name = "textNum1";
-            this.textNum1.Size = new System.Drawing.Size(100, 22);
-            this.textNum1.TabIndex = 2;
-            this.textNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNum1.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.txtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum1.Location = new System.Drawing.Point(12, 138);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(100, 22);
+            this.txtNum1.TabIndex = 2;
+            this.txtNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textNum2
+            // txtNum2
             // 
-            this.textNum2.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.textNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textNum2.Location = new System.Drawing.Point(184, 138);
-            this.textNum2.Name = "textNum2";
-            this.textNum2.Size = new System.Drawing.Size(100, 22);
-            this.textNum2.TabIndex = 3;
-            this.textNum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textNum2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtNum2.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.txtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum2.Location = new System.Drawing.Point(184, 138);
+            this.txtNum2.Name = "txtNum2";
+            this.txtNum2.Size = new System.Drawing.Size(100, 22);
+            this.txtNum2.TabIndex = 3;
+            this.txtNum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNum2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // lblOperator
             // 
@@ -99,6 +99,7 @@
             this.lblOperator.Name = "lblOperator";
             this.lblOperator.Size = new System.Drawing.Size(60, 20);
             this.lblOperator.TabIndex = 4;
+            this.lblOperator.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblEqual
             // 
@@ -149,6 +150,7 @@
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnMult
             // 
@@ -159,6 +161,7 @@
             this.btnMult.TabIndex = 10;
             this.btnMult.Text = "*";
             this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // btnModulus
             // 
@@ -169,6 +172,7 @@
             this.btnModulus.TabIndex = 11;
             this.btnModulus.Text = "%";
             this.btnModulus.UseVisualStyleBackColor = true;
+            this.btnModulus.Click += new System.EventHandler(this.btnModulus_Click);
             // 
             // btnSub
             // 
@@ -179,6 +183,7 @@
             this.btnSub.TabIndex = 12;
             this.btnSub.Text = "-";
             this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // btnDivide
             // 
@@ -189,6 +194,7 @@
             this.btnDivide.TabIndex = 13;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // btnExponent
             // 
@@ -199,6 +205,7 @@
             this.btnExponent.TabIndex = 14;
             this.btnExponent.Text = "^";
             this.btnExponent.UseVisualStyleBackColor = true;
+            this.btnExponent.Click += new System.EventHandler(this.btnExponent_Click);
             // 
             // btnClear
             // 
@@ -240,8 +247,8 @@
             this.Controls.Add(this.lblSolution);
             this.Controls.Add(this.lblEqual);
             this.Controls.Add(this.lblOperator);
-            this.Controls.Add(this.textNum2);
-            this.Controls.Add(this.textNum1);
+            this.Controls.Add(this.txtNum2);
+            this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.picLogo);
             this.Name = "frmCalculator";
@@ -255,8 +262,8 @@
 
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.TextBox textNum1;
-        private System.Windows.Forms.TextBox textNum2;
+        private System.Windows.Forms.TextBox txtNum1;
+        private System.Windows.Forms.TextBox txtNum2;
         private System.Windows.Forms.Label lblOperator;
         private System.Windows.Forms.Label lblEqual;
         private System.Windows.Forms.Label lblSolution;
